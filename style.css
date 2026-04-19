@@ -1,12 +1,12 @@
 :root {
-    --bg-dark: #0a0a0c;
-    --bg-card: rgba(25, 25, 30, 0.6);
-    --accent-primary: #a855f7;
-    --accent-secondary: #ef4444;
-    --accent-tertiary: #dc2626;
-    --text-main: #e2e8f0;
-    --text-muted: #94a3b8;
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-dark: #0e0e10;
+    --bg-card: rgba(22, 22, 26, 0.95);
+    --accent-primary: #7c3aed;
+    --accent-secondary: #b91c1c;
+    --accent-tertiary: #7f1d1d;
+    --text-main: #cbd5e1;
+    --text-muted: #64748b;
+    --glass-border: rgba(255, 255, 255, 0.05);
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
 }
@@ -40,8 +40,8 @@ body {
     z-index: 9999;
     mix-blend-mode: screen;
     transition: transform 0.1s ease-out, opacity 0.3s ease;
-    filter: blur(8px);
-    opacity: 0.5;
+    filter: blur(12px);
+    opacity: 0.3;
 }
 
 .container {
@@ -116,7 +116,6 @@ body {
     font-weight: 600;
 }
 
-.btn-glow {
     background: linear-gradient(135deg, var(--accent-tertiary), var(--accent-primary));
     color: white;
     text-decoration: none;
@@ -124,13 +123,13 @@ body {
     border-radius: 12px;
     font-weight: 700;
     font-family: var(--font-heading);
-    box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .btn-glow:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #991b1b, #6d28d9);
 }
 
 .btn-outline {
@@ -318,7 +317,7 @@ h1 span {
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     border-color: var(--accent-primary);
 }
 
