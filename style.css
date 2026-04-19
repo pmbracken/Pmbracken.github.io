@@ -152,6 +152,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    padding-top: 80px; /* Space for fixed nav */
     position: relative;
     overflow: hidden;
 }
