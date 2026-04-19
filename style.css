@@ -116,20 +116,21 @@ body {
     font-weight: 600;
 }
 
-    background: linear-gradient(135deg, var(--accent-tertiary), var(--accent-primary));
-    color: white;
+.btn-glow {
+    background: #ffffff;
+    color: #0e0e10 !important;
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
     font-weight: 700;
     font-family: var(--font-heading);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .btn-glow:hover {
     transform: translateY(-2px);
-    background: linear-gradient(135deg, #991b1b, #6d28d9);
+    background: #f1f5f9;
 }
 
 .btn-outline {
