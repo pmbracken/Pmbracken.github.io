@@ -24,7 +24,7 @@ let logIndex = 0;
 function addLogLine() {
     if (logIndex >= logMessages.length) {
         // Clear and restart for continuous feel
-        terminalBody.innerHTML = '<p class="log-line">Initializing Cartographer2 Engine...</p>';
+        terminalBody.innerHTML = '<p class="log-line">Initializing Synthesis Engine...</p>';
         logIndex = 0;
     }
 
