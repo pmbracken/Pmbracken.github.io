@@ -418,7 +418,13 @@ h1 span {
 
 .terminal-body {
     padding: 1.5rem;
-    min-height: 250px;
+    height: 300px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.terminal-body::-webkit-scrollbar {
+    display: none;
 }
 
 .log-line {
