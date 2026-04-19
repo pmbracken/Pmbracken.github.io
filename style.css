@@ -154,7 +154,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 40px; /* Reduced space for fixed nav */
+    padding-top: 20px; /* Further reduced space for fixed nav */
     position: relative;
     overflow: hidden;
 }
